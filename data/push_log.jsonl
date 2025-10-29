@@ -1,0 +1,4 @@
+{"ts": 1761729619, "ticket_id": "T1", "category": "Billing", "confidence": 0.95}
+{"ts": 1761729619, "ticket_id": "T2", "category": "Technical Issue", "confidence": 0.95}
+{"ts": 1761729619, "ticket_id": "T3", "category": "Sales Inquiry", "confidence": 0.9}
+{"ts": 1761729619, "ticket_id": "T4", "category": "Refunds", "confidence": 0.95}
