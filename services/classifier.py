@@ -29,7 +29,7 @@ def _fallback_rule_based(text: str, categories: List[str]) -> Dict[str, Any]:
         cat = pick("Billing")
     elif any(k in t for k in ["login", "password", "bug", "error", "crash", "cant log", "cannot log"]):
         cat = pick("Technical Issue")
-    elif any(k in t for k in ["plan", "pricing", "buy", "purchase", "quote", "subscription"]):
+    elif any(k in t for k in ["plan", "pricing", "buy", "purchase", "quote", "subscription","address"]):
         cat = pick("Sales Inquiry")
     elif any(k in t for k in ["refund", "refunded", "money back"]):
         cat = pick("Refunds")
